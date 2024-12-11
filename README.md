@@ -19,8 +19,10 @@ This guide covers 9 popular database types (*note: DB solutions can cover multip
   + *Examples Include:* Druid, InfluxDB, OpenTSDB, Prometheus, TimescaleDB.
 * Vector-Based Databases
   + *Examples Include:* Chroma, Milvus, Pinecone, Qdrant, Weaviate.
-
-<br /><br />  
+<br />
+  
+Before diving into specific use cases for each type of database, several factors should be considered. These include: cost of operations (can the organization cover it, and is there a more efficacious alternative?), employee/team expertise (will it take significant training to implement the database solution?), whether it makes sense to host services in-house or via a cloud provider, whether scalability is a significant concern (such as it is for streaming services and some embedded/IoT environments), and if one's organization is prepared to back up and recover data, or install and maintain backup/recovery solutions corresponding to the selected database solution.
+  
 *Use cases for these nine database types include...*
   
 | Database Type | Use Cases |

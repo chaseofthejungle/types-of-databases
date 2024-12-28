@@ -27,12 +27,23 @@ Before diving into specific use cases for each type of database, several factors
   
 | Database Type | Use Cases |
 | ------- | ------- |
-| `Columnar` | Business intelligence (BI), data warehousing, significant analytics and enterprise-level reporting needs. |
-| `Document-Based` | Content management, JSON and JSON-like data, fast development deadlines, need for flexibile schematics. |
-| `Graph-Based` | Social bookmarking, networking, and recommendation-based sites, interconnected data needs, pattern recognition. |
-| `In-Memory` | Need for instant/real-time performance and processing, data caching, and temporary storage of data. | 
-| `NoSQL` | Quick response times/low latency, instant/real-time analytics, constantly-evolving data, server scalability needs. |
-| `Object-Oriented` | Integration with object-oriented languages (e.g., Java), hierarchy-based data objects, long-term object storage/persistence. |
-| `Relational` | ACID compliance (important for large enterprises and essential services), data integrity, sophisticated joins/transactions of multi-table data, structured data. |
-| `Time-Oriented` | Time-series analytics, monitoring and metrics, sensor-related and IoT/embedded system data, data sequencing/patterns. |
-| `Vector-Based` | Quick retrieval, machine learning (including complex tasks), similarity searching. |
+| **Columnar** | Business intelligence (BI), data warehousing, significant analytics and enterprise-level reporting needs. |
+| **Document Based** | Content management, JSON and JSON-like data, fast development deadlines, need for flexibile schematics. |
+| **Graph Based** | Social bookmarking, networking, and recommendation-based sites, interconnected data needs, pattern recognition. |
+| **In Memory** | Need for instant/real-time performance and processing, data caching, and temporary storage of data. | 
+| **NoSQL** | Quick response times/low latency, instant/real-time analytics, constantly-evolving data, server scalability needs. |
+| **Object Oriented** | Integration with object-oriented languages (e.g., Java), hierarchy-based data objects, long-term object storage/persistence. |
+| **Relational** | ACID compliance (important for large enterprises and essential services), data integrity, sophisticated joins/transactions of multi-table data, structured data. |
+| **Time Oriented** | Time-series analytics, monitoring and metrics, sensor-related and IoT/embedded system data, data sequencing/patterns. |
+| **Vector Based** | Quick retrieval, machine learning (including complex tasks), similarity searching. |
+
+<hr />  
+Four of the unique ways that databases scale (and can handle increasing traffic/data requests) include...
+<br /><br />
+  
+| Feature | Explanation |
+| ------ | ------ |
+| **Indexing** | This is the use of 'pointers', in which keys in memory (indexes, or indices) are mapped to rows/records in a table. |
+| **Caching** | By searching for data in a memory cache, performance of reads can be improved (no need to request data from a database, preserving time and memory). |
+| **Sharding** | This splits rows/records and columns/fields across multiple servers/devices, potentially providing load balancing. |
+| **Replications** | This also provides load balancing by replicating data (for reading purposes) across multiple servers/devices. Write responsibilities can still be allocated to one database (the 'primary' database) to preserve data integrity. |

@@ -1,5 +1,10 @@
 # Overview of Database Types
-This guide covers 9 popular database types (*note: DB solutions can cover multiple categories, and the following is not an exhaustive list of database solutions and how many categories they overlap in*):
+  
+**Overview:** This guide covers 9 popular database types (*note: DB solutions can cover multiple categories, and the following is not an exhaustive list of database solutions and how many categories they overlap in*):
+  
+<hr />
+  
+## 1. Popular Database Types
   
 * Columnar Databases
   + *Examples Include:* Amazon Redshift, Apache Cassandra, Apache HBase, ClickHouse, Google Bigtable.
@@ -19,7 +24,10 @@ This guide covers 9 popular database types (*note: DB solutions can cover multip
   + *Examples Include:* Druid, InfluxDB, OpenTSDB, Prometheus, TimescaleDB.
 * Vector-Based Databases
   + *Examples Include:* Chroma, Milvus, Pinecone, Qdrant, Weaviate.
-<br />
+  
+<hr />
+
+## 2. Database Use Cases
   
 Before diving into specific use cases for each type of database, several factors should be considered. These include: cost of operations (can the organization cover it, and is there a more efficacious alternative?), employee/team expertise (will it take significant training to implement the database solution?), whether it makes sense to host services in-house or via a cloud provider, whether scalability is a significant concern (such as it is for streaming services and some embedded/IoT environments), and if one's organization is prepared to back up and recover data, or install and maintain backup/recovery solutions corresponding to the selected database solution.
   
@@ -38,9 +46,11 @@ Before diving into specific use cases for each type of database, several factors
 | **Vector Based** | Quick retrieval, machine learning (including complex tasks), similarity searching. |
 
 <hr />  
-Four of the unique ways that databases scale (and can handle increasing traffic/data requests) include...
-<br /><br />
+
+## 3. Scaling Features
   
+Four of the unique ways that databases scale (and can handle increasing traffic/data requests) include...
+    
 | Feature | Explanation |
 | ------ | ------ |
 | **Indexing** | This is the use of 'pointers', in which keys in memory (indexes, or indices) are mapped to rows/records in a table. |

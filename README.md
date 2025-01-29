@@ -1,6 +1,12 @@
 # Overview of Database Types
   
 **Overview:** This guide covers 9 popular database types (*note: DB solutions can cover multiple categories, and the following is not an exhaustive list of database solutions and how many categories they overlap in*):
+
+#### Table of Contents:
+
+1. Popular Database Types
+2. Database Use Cases
+3. Scaling Features
   
 <hr />
   

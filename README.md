@@ -4,13 +4,13 @@
 
 #### Table of Contents:
 
-1. Popular Database Types
-2. Database Use Cases
-3. Scaling Features
+1. [Popular Database Types](#popular-db)
+2. [Database Use Cases](#use-cases)
+3. [Scaling Features](#scaling)
   
 <hr />
   
-## 1. Popular Database Types
+## 1. <a name="popular-db">Popular Database Types</a>
   
 * Columnar Databases
   + *Examples Include:* Amazon Redshift, Apache Cassandra, Apache HBase, ClickHouse, Google Bigtable.
@@ -33,7 +33,7 @@
   
 <hr />
 
-## 2. Database Use Cases
+## 2. <a name="use-cases">Database Use Cases</a>
   
 Before diving into specific use cases for each type of database, several factors should be considered. These include: cost of operations (can the organization cover it, and is there a more efficacious alternative?), employee/team expertise (will it take significant training to implement the database solution?), whether it makes sense to host services in-house or via a cloud provider, whether scalability is a significant concern (such as it is for streaming services and some embedded/IoT environments), and if one's organization is prepared to back up and recover data, or install and maintain backup/recovery solutions corresponding to the selected database solution.
   
@@ -53,7 +53,7 @@ Before diving into specific use cases for each type of database, several factors
 
 <hr />  
 
-## 3. Scaling Features
+## 3. <a name="scaling">Scaling Features</a>
   
 Four of the unique ways that databases scale (and can handle increasing traffic/data requests) include...
     

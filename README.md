@@ -12,24 +12,70 @@
   
 ## 1. <a name="popular-db">Popular Database Types</a>
   
-* Columnar Databases
-  + *Examples Include:* Amazon Redshift, Apache Cassandra, Apache HBase, ClickHouse, Google Bigtable.
-* Document-Based Databases
-  + *Examples Include:* Amazon DocumentDB, CouchDB, MongoDB, RavenDB, RethinkDB.
-* Graph-Based Databases
-  + *Examples Include:* Amazon Neptune, ArangoDB, Azure Cosmos DB, Neo4j, OrientDB.
-* In-Memory Databases
-  + *Examples Include:* Memcached, Microsoft SQL Server In-Memory (OLTP), Redis, SAP HANA, VoltDB.
-* NoSQL Databases
-  + *Examples Include:* Apache Cassandra, Apache HBase, Couchbase, MongoDB, Redis.
-* Object-Oriented Databases
-  + *Examples Include:* db4o, GemStone/S, ObjectDB, Versant Object Database, ZODB.
-* Relational Databases
-  + *Examples Include:* CockroachDB, Microsoft SQL Server, MySQL, Oracle (various products), PostgreSQL, SQLite.
-* Time-Oriented Databases
-  + *Examples Include:* Druid, InfluxDB, OpenTSDB, Prometheus, TimescaleDB.
-* Vector-Based Databases
-  + *Examples Include:* Chroma, Milvus, Pinecone, Qdrant, Weaviate.
+* **Columnar Databases**
+  + *Examples...*
+    - Amazon Redshift
+    - Apache Cassandra
+    - Apache HBase
+    - ClickHouse
+    - Google Bigtable
+* **Document-Based Databases**
+  + *Examples...*
+    - Amazon DocumentDB
+    - CouchDB
+    - MongoDB
+    - RavenDB
+    - RethinkDB
+* **Graph-Based Databases**
+  + *Examples...*
+    - Amazon Neptune
+    - ArangoDB
+    - Azure Cosmos DB
+    - Neo4j
+    - OrientDB
+* **In-Memory Databases**
+  + *Examples...*
+    - Memcached
+    - Microsoft SQL Server In-Memory (OLTP)
+    - Redis
+    - SAP HANA
+    - VoltDB
+* **NoSQL Databases**
+  + *Examples...*
+    - Apache Cassandra
+    - Apache HBase
+    - Couchbase
+    - MongoDB
+    - Redis
+* **Object-Oriented Databases**
+  + *Examples...*
+    - db4o
+    - GemStone/S
+    - ObjectDB
+    - Versant Object Database
+    - ZODB
+* **Relational Databases**
+  + *Examples...*
+    - CockroachDB
+    - Microsoft SQL Server
+    - MySQL
+    - Oracle (various products)
+    - PostgreSQL
+    - SQLite
+* **Time-Oriented Databases**
+  + *Examples...*
+    - Druid
+    - InfluxDB
+    - OpenTSDB
+    - Prometheus
+    - TimescaleDB
+* **Vector-Based Databases**
+  + *Examples...*
+    - Chroma
+    - Milvus
+    - Pinecone
+    - Qdrant
+    - Weaviate
   
 <hr />
 
@@ -63,3 +109,5 @@ Four of the unique ways that databases scale (and can handle increasing traffic/
 | **Caching** | By searching for data in a memory cache, performance of reads can be improved (no need to request data from a database, preserving time and memory). |
 | **Sharding** | This splits rows/records and columns/fields across multiple servers/devices, potentially providing load balancing. |
 | **Replications** | This also provides load balancing by replicating data (for reading purposes) across multiple servers/devices. Write responsibilities can still be allocated to one database (the 'primary' database) to preserve data integrity. |
+  
+TODO: Add overviews for each example in Section 1.

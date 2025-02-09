@@ -4,58 +4,51 @@
 
 #### Table of Contents:
 
-1. [Popular Database Types](#popular-db)
+1. [Popular Database Types (with examples)](#popular-db)
 2. [Database Use Cases](#use-cases)
 3. [Scaling Features](#scaling)
   
 <hr />
   
-## 1. <a name="popular-db">Popular Database Types</a>
+## 1. <a name="popular-db">Popular Database Types (with examples)</a>
   
 * **Columnar Databases**
-  + *Examples...*
     - Amazon Redshift
     - Apache Cassandra
     - Apache HBase
     - ClickHouse
     - Google Bigtable
 * **Document-Based Databases**
-  + *Examples...*
     - Amazon DocumentDB
     - CouchDB
     - MongoDB
     - RavenDB
     - RethinkDB
 * **Graph-Based Databases**
-  + *Examples...*
     - Amazon Neptune
     - ArangoDB
     - Azure Cosmos DB
     - Neo4j
     - OrientDB
 * **In-Memory Databases**
-  + *Examples...*
     - Memcached
     - Microsoft SQL Server In-Memory (OLTP)
     - Redis
     - SAP HANA
     - VoltDB
 * **NoSQL Databases**
-  + *Examples...*
     - Apache Cassandra
     - Apache HBase
     - Couchbase
     - MongoDB
     - Redis
 * **Object-Oriented Databases**
-  + *Examples...*
     - db4o
     - GemStone/S
     - ObjectDB
     - Versant Object Database
     - ZODB
 * **Relational Databases**
-  + *Examples...*
     - CockroachDB
     - Microsoft SQL Server
     - MySQL
@@ -63,14 +56,12 @@
     - PostgreSQL
     - SQLite
 * **Time-Oriented Databases**
-  + *Examples...*
     - Druid
     - InfluxDB
     - OpenTSDB
     - Prometheus
     - TimescaleDB
 * **Vector-Based Databases**
-  + *Examples...*
     - Chroma
     - Milvus
     - Pinecone

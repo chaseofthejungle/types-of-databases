@@ -13,60 +13,60 @@
 ## 1. <a name="popular-db">Popular Database Types (with examples)</a>
   
 * **Columnar Databases**
-    - Amazon Redshift
-    - Apache Cassandra
-    - Apache HBase
-    - ClickHouse
-    - Google Bigtable
+    - [Amazon Redshift](https://aws.amazon.com/redshift/)
+    - [Apache Cassandra](https://cassandra.apache.org/_/index.html)
+    - [Apache HBase](https://hbase.apache.org/)
+    - [ClickHouse](https://clickhouse.com/)
+    - [Google Bigtable](https://cloud.google.com/bigtable)
 * **Document-Based Databases**
-    - Amazon DocumentDB
-    - CouchDB
-    - MongoDB
-    - RavenDB
-    - RethinkDB
+    - [Amazon DocumentDB](https://aws.amazon.com/documentdb/)
+    - [Apache CouchDB](https://couchdb.apache.org/)
+    - [MongoDB](https://www.mongodb.com/)
+    - [RavenDB](https://ravendb.net/)
+    - [RethinkDB](https://rethinkdb.com/)
 * **Graph-Based Databases**
-    - Amazon Neptune
-    - ArangoDB
-    - Azure Cosmos DB
-    - Neo4j
-    - OrientDB
+    - [Amazon Neptune](https://aws.amazon.com/neptune/)
+    - [ArangoDB](https://arangodb.com/)
+    - [Azure Cosmos DB](https://azure.microsoft.com/en-us/products/cosmos-db)
+    - [Neo4j](https://neo4j.com/)
+    - [OrientDB](https://orientdb.org/)
 * **In-Memory Databases**
-    - Memcached
-    - Microsoft SQL Server In-Memory (OLTP)
-    - Redis
-    - SAP HANA
-    - VoltDB
+    - [Memcached](https://memcached.org/)
+    - [Microsoft Azure (OLTP)](https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing)
+    - [Redis](https://redis.io/)
+    - [SAP HANA](https://www.sap.com/products/data-cloud/hana/what-is-sap-hana.html)
+    - [Volt Active Data](https://www.voltactivedata.com/)
 * **NoSQL Databases**
-    - Apache Cassandra
-    - Apache HBase
-    - Couchbase
-    - MongoDB
-    - Redis
+    - [Actian NoSQL Object Database](https://www.actian.com/databases/nosql/)
+    - [Apache Cassandra](https://cassandra.apache.org/_/index.html)
+    - [Apache HBase](https://hbase.apache.org/)
+    - [Couchbase](https://www.couchbase.com/)
+    - [MongoDB](https://www.mongodb.com/)
+    - [Redis](https://redis.io/)
 * **Object-Oriented Databases**
-    - db4o
-    - GemStone/S
-    - ObjectDB
-    - Versant Object Database
-    - ZODB
+    - [Actian NoSQL Object Database](https://www.actian.com/databases/nosql/)
+    - [db4o (Legacy Technology)](https://dbdb.io/db/db4o)
+    - [GemStone/S](https://gemtalksystems.com/products/gs64/)
+    - [ObjectDB](https://www.objectdb.com/)
+    - [ZODB](https://zodb.org/en/latest/)
 * **Relational Databases**
-    - CockroachDB
-    - Microsoft SQL Server
-    - MySQL
-    - Oracle (various products)
-    - PostgreSQL
-    - SQLite
+    - [CockroachDB](https://www.cockroachlabs.com/)
+    - [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server)
+    - [Oracle MySQL](https://www.mysql.com/)
+    - [PostgreSQL](https://www.postgresql.org/)
+    - [SQLite](https://www.sqlite.org/)
 * **Time-Oriented Databases**
-    - Druid
-    - InfluxDB
-    - OpenTSDB
-    - Prometheus
-    - TimescaleDB
+    - [Apache Druid](https://druid.apache.org/)
+    - [InfluxDB](https://www.influxdata.com/)
+    - [OpenTSDB](https://opentsdb.net/)
+    - [Prometheus](https://prometheus.io/)
+    - [TimescaleDB](https://www.timescale.com/)
 * **Vector-Based Databases**
-    - Chroma
-    - Milvus
-    - Pinecone
-    - Qdrant
-    - Weaviate
+    - [Chroma](https://www.trychroma.com/)
+    - [Milvus](https://milvus.io/)
+    - [Pinecone](https://www.pinecone.io/)
+    - [Qdrant](https://qdrant.tech/)
+    - [Weaviate](https://weaviate.io/)
   
 <hr />
 
@@ -100,5 +100,3 @@ Four of the unique ways that databases scale (and can handle increasing traffic/
 | **Caching** | By searching for data in a memory cache, performance of reads can be improved (no need to request data from a database, preserving time and memory). |
 | **Sharding** | This splits rows/records and columns/fields across multiple servers/devices, potentially providing load balancing. |
 | **Replications** | This also provides load balancing by replicating data (for reading purposes) across multiple servers/devices. Write responsibilities can still be allocated to one database (the 'primary' database) to preserve data integrity. |
-  
-TODO: Add overviews for each example in Section 1.

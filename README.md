@@ -7,6 +7,7 @@
 1. [Popular Database Types (with examples)](#popular-db)
 2. [Database Use Cases](#use-cases)
 3. [Scaling Features](#scaling)
+4. [Supplemental Resource](#supplemental)
   
 <hr />
   
@@ -100,3 +101,9 @@ Four of the unique ways that databases scale (and can handle increasing traffic/
 | **Caching** | By searching for data in a memory cache, performance of reads can be improved (no need to request data from a database, preserving time and memory). |
 | **Sharding** | This splits rows/records and columns/fields across multiple servers/devices, potentially providing load balancing. |
 | **Replications** | This also provides load balancing by replicating data (for reading purposes) across multiple servers/devices. Write responsibilities can still be allocated to one database (the 'primary' database) to preserve data integrity. |
+  
+<hr />
+  
+## 4. <a name="supplemental">Supplemental Resource</a>
+  
+[Data Repositories Overview Guide](https://github.com/chaseofthejungle/data-repositories-overview)

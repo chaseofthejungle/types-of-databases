@@ -7,7 +7,7 @@
 1. [Popular Database Types (with examples)](#popular-db)
 2. [Database Use Cases](#use-cases)
 3. [Scaling Features](#scaling)
-4. [Supplemental Resource](#supplemental)
+4. [Supplemental Resources](#supplemental)
   
 <hr />
   
@@ -104,6 +104,7 @@ Four of the unique ways that databases scale (and can handle increasing traffic/
   
 <hr />
   
-## 4. <a name="supplemental">Supplemental Resource</a>
+## 4. <a name="supplemental">Supplemental Resources</a>
   
-[Data Repositories Overview Guide](https://github.com/chaseofthejungle/data-repositories-overview)
+* *[Data Repositories Overview Guide](https://github.com/chaseofthejungle/data-repositories-overview)*
+* *[MongoDB Official Website](https://www.mongodb.com/)*

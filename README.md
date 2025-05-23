@@ -108,3 +108,7 @@ Four of the unique ways that databases scale (and can handle increasing traffic/
   
 * *[Data Repositories Overview Guide](https://github.com/chaseofthejungle/data-repositories-overview)*
 * *[MongoDB Official Website](https://www.mongodb.com/)*
+
+<hr />
+
+**TODO:** Add explanations of all database examples.

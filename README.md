@@ -14,23 +14,23 @@
 ## 1. <a name="popular-db">Popular Database Types (with examples)</a>
   
 * **Columnar Databases**
-    - [Amazon Redshift](https://aws.amazon.com/redshift/)
-    - [Apache Cassandra](https://cassandra.apache.org/_/index.html)
-    - [Apache HBase](https://hbase.apache.org/)
-    - [ClickHouse](https://clickhouse.com/)
-    - [Google Bigtable](https://cloud.google.com/bigtable)
+    - [Amazon Redshift](https://aws.amazon.com/redshift/): Intended for big data queries and analytics.
+    - [Apache Cassandra](https://cassandra.apache.org/_/index.html): Handles massive data volumes with high availability and fault tolerance. Intended for high speed settings (e.g., e-commerce, CMSes, social media).
+    - [Apache HBase](https://hbase.apache.org/): Used to handle big data, social media, and IoT apps, with dashboards for real-time analytics.
+    - [ClickHouse](https://clickhouse.com/): Popular for online analytical processing in large data settings, with dashboard-accessible insights.
+    - [Google Bigtable](https://cloud.google.com/bigtable): Processes financial, marketing, and time-series data.
 * **Document-Based Databases**
-    - [Amazon DocumentDB](https://aws.amazon.com/documentdb/)
-    - [Apache CouchDB](https://couchdb.apache.org/)
-    - [MongoDB](https://www.mongodb.com/)
-    - [RavenDB](https://ravendb.net/)
-    - [RethinkDB](https://rethinkdb.com/)
+    - [Amazon DocumentDB](https://aws.amazon.com/documentdb/): Enables quick scaling of memory and computational resources for Amazon's Virtual Private Cloud.
+    - [Apache CouchDB](https://couchdb.apache.org/): Can operate database servers via virtual machines and other servers.
+    - [MongoDB](https://www.mongodb.com/): Builds highly scalable and available web apps. Utilized by MERN and MEAN Stack Developers.
+    - [RavenDB](https://ravendb.net/): Includes a cloud service for handling administrative tasks (e.g., user security, hardware installations/maintenance).
+    - [RethinkDB](https://rethinkdb.com/): Useful for tracking real-time changes and applying block/non-block requests.
 * **Graph-Based Databases**
-    - [Amazon Neptune](https://aws.amazon.com/neptune/)
-    - [ArangoDB](https://arangodb.com/)
-    - [Azure Cosmos DB](https://azure.microsoft.com/en-us/products/cosmos-db)
-    - [Neo4j](https://neo4j.com/)
-    - [OrientDB](https://orientdb.org/)
+    - [Amazon Neptune](https://aws.amazon.com/neptune/): Builds and executes apps that handle connected datasets (e.g., network security, fraud detection, recommendation engine apps).
+    - [ArangoDB](https://arangodb.com/): Enables data integration for relationship and activity analysis. A popular solution for fraud monitoring/detection apps.
+    - [Azure Cosmos DB](https://azure.microsoft.com/en-us/products/cosmos-db): Builds AI-enabled, web, mobile, and other apps that handle large quantities of data.
+    - [Neo4j](https://neo4j.com/): Detects data patterns and provides data persistence and querying for complex relationships.
+    - [OrientDB](https://orientdb.org/): Utilized for big data processing while providing scalability and flexibility. A popular solution for social networks, banks, and fraud prevention/detection systems.
 * **In-Memory Databases**
     - [Memcached](https://memcached.org/)
     - [Microsoft Azure (OLTP)](https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing)
@@ -111,4 +111,4 @@ Four of the unique ways that databases scale (and can handle increasing traffic/
 
 <hr />
 
-**TODO:** Add explanations of all database examples.
+**TODO:** Add explanations for the 6 database types that do not yet have them.

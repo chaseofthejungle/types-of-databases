@@ -32,11 +32,11 @@
     - [Neo4j](https://neo4j.com/): Detects data patterns and provides data persistence and querying for complex relationships.
     - [OrientDB](https://orientdb.org/): Utilized for big data processing while providing scalability and flexibility. A popular solution for social networks, banks, and fraud prevention/detection systems.
 * **In-Memory Databases**
-    - [Memcached](https://memcached.org/)
-    - [Microsoft Azure (OLTP)](https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing)
-    - [Redis](https://redis.io/)
-    - [SAP HANA](https://www.sap.com/products/data-cloud/hana/what-is-sap-hana.html)
-    - [Volt Active Data](https://www.voltactivedata.com/)
+    - [Memcached](https://memcached.org/): Supports database load balancing and increases speed/processing efficiency of web apps.
+    - [Microsoft Azure (OLTP)](https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing): Records real-time interactions and allows the data to be queried for quick decision making.
+    - [Redis](https://redis.io/): Can be utilized dynamically (as a cache, database, or message broker).
+    - [SAP HANA](https://www.sap.com/products/data-cloud/hana/what-is-sap-hana.html): Utilized for diverse operations (e.g., advanced analytics, custom app development and deployment, managing processes).
+    - [Volt Active Data](https://www.voltactivedata.com/): Empowers enterprises with high scalability, without compromising data or data processing.
 * **NoSQL Databases**
     - [Actian NoSQL Object Database](https://www.actian.com/databases/nosql/)
     - [Apache Cassandra](https://cassandra.apache.org/_/index.html)

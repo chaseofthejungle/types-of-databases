@@ -51,11 +51,11 @@
     - [ObjectDB](https://www.objectdb.com/): Relies on two Java APIs (JDO and JPA) instead of utilizing a proprietary API and implementing an ORM as an intermediary.
     - [ZODB](https://zodb.org/en/latest/): Provides data persistence and transparency for Python objects.
 * **Relational Databases**
-    - [CockroachDB](https://www.cockroachlabs.com/)
-    - [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server)
-    - [Oracle MySQL](https://www.mysql.com/)
-    - [PostgreSQL](https://www.postgresql.org/)
-    - [SQLite](https://www.sqlite.org/)
+    - [CockroachDB](https://www.cockroachlabs.com/): Popular for cloud-based software-as-a-service apps, financial systems, Kubernetes (k8s) services, OLTP, and transactional platform solutions.
+    - [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server): Provides data persistence and data fetching for diverse workloads, including client-based and cloud-based apps.
+    - [Oracle MySQL](https://www.mysql.com/): Utilized by content management systems (such as for academic purposes), e-commerce stores, embedded systems, and web apps.
+    - [PostgreSQL](https://www.postgresql.org/): A highly portable database solution with an active international support community. Capable of handling diverse workloads and providing high availability even when many concurrent users are present.
+    - [SQLite](https://www.sqlite.org/): An embedded database solution, rather than a standalone app. A popular choice for embedded systems, operating systems, smart phones, and web browsers. 
 * **Time-Oriented Databases**
     - [Apache Druid](https://druid.apache.org/)
     - [InfluxDB](https://www.influxdata.com/)

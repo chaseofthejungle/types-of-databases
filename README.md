@@ -45,11 +45,11 @@
     - [MongoDB](https://www.mongodb.com/): Builds highly scalable and available web apps. Utilized by MERN and MEAN Stack Developers.
     - [Redis](https://redis.io/): Can be utilized dynamically (as a cache, database, or message broker).
 * **Object-Oriented Databases**
-    - [Actian NoSQL Object Database](https://www.actian.com/databases/nosql/)
-    - [db4o (Legacy Technology)](https://dbdb.io/db/db4o)
-    - [GemStone/S](https://gemtalksystems.com/products/gs64/)
-    - [ObjectDB](https://www.objectdb.com/)
-    - [ZODB](https://zodb.org/en/latest/)
+    - [Actian NoSQL Object Database](https://www.actian.com/databases/nosql/): Provides transactional storage of data via object-oriented programming languages, which serve as data definition languages.
+    - [Actian db4o (Legacy Technology)](https://dbdb.io/db/db4o): Intended for .NET and Java developers. Discontinued since October 2014.
+    - [GemStone/S](https://gemtalksystems.com/products/gs64/): Supports mission-critical apps, integrating the Smalltalk programing language for development, deployment, and management.
+    - [ObjectDB](https://www.objectdb.com/): Relies on two Java APIs (JDO and JPA) instead of utilizing a proprietary API and implementing an ORM as an intermediary.
+    - [ZODB](https://zodb.org/en/latest/): Provides data persistence and transparency for Python objects.
 * **Relational Databases**
     - [CockroachDB](https://www.cockroachlabs.com/)
     - [Microsoft SQL Server](https://www.microsoft.com/en-us/sql-server)
@@ -108,7 +108,3 @@ Four of the unique ways that databases scale (and can handle increasing traffic/
   
 * *[Data Repositories Overview Guide](https://github.com/chaseofthejungle/data-repositories-overview)*
 * *[MongoDB Official Website](https://www.mongodb.com/)*
-
-<hr />
-
-**TODO:** Add explanations for the 6 database types that do not yet have them.
